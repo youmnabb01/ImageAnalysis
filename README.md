@@ -2,7 +2,7 @@
 ## Description
 This project involves analyzing microscopy images of U2OS cells to segment and analyze nuclei, as well as quantify the mean Ki-67 intensity in each nucleus. The images are acquired from a Nikon ND2 file and processed using several image processing techniques, such as Gaussian filtering, background subtraction, and thresholding. The primary focus is to evaluate the Ki-67 marker, which is widely used in cell biology to assess cell proliferation.
 ## Notebooks
-- **Image Processing Notebook** ([ABBOUD_HW_Image_Processing.ipynb]()):
+- **Image Processing Notebook** ([ABBOUD_HW_Image_Processing.ipynb](ABBOUD_HW_Image_Processing.ipynb)):
 This notebook handles the image processing steps required to segment the nuclei in the microscopy images.
 It processes the images in the Hoechst channel (for nuclei detection) and Ki-67 channel (for quantifying Ki-67 intensity).
 The steps involve Gaussian filtering, background subtraction, Otsu thresholding, and the labeling of detected nuclei.
