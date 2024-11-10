@@ -1,6 +1,9 @@
 # Cell Analysis: Ki-67 Intensity Measurement
 ## Description
 This project involves analyzing microscopy images of U2OS cells to segment and analyze nuclei, as well as quantify the mean Ki-67 intensity in each nucleus. The images are acquired from a Nikon ND2 file and processed using several image processing techniques, such as Gaussian filtering, background subtraction, and thresholding. The primary focus is to evaluate the Ki-67 marker, which is widely used in cell biology to assess cell proliferation.
+## Contributors
+Youmna Abboud
+This project was completed at **ETH** as part of the **Cell Image Analysis Lab** course.
 ## Notebooks
 - **Image Processing Notebook** ([ABBOUD_HW_Image_Processing.ipynb](ABBOUD_HW_Image_Processing.ipynb)):
 This notebook handles the image processing steps required to segment the nuclei in the microscopy images.
